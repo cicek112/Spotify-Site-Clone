@@ -1,0 +1,229 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,300;0,700;1,400&display=swap');
+
+:root{
+  --colorb:rgb(228, 50, 5);
+  --colorg:#1ED760;
+  --colorc:#2941AB;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+i{
+  color: white;
+}
+header li{
+  font-size: 16px;
+ 
+  text-decoration: none;
+}
+
+header a{
+  font-size: 16px;
+  color: whitesmoke;
+  
+}
+
+header{
+  
+  background-color: #000000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 7.5%;
+}
+
+#logo{
+  margin-right: auto;
+  color: whitesmoke;
+}
+
+#lastlogo{
+  margin-left: 30px;
+}
+header i{
+  color: white;
+}
+
+
+.links{ 
+  list-style: none;
+  display: flex;
+  /* ul un classı links */
+}
+
+.links li{
+  /* display: inline-block; */
+  padding: 0px 30px;
+ 
+}
+
+.links li a:hover{
+  color: green;
+  
+}
+
+/* Navbar Ends */
+
+.pink{
+  width: 100%;
+  height: 520px;
+  background-color: pink;
+  
+}
+
+.textbox{
+  text-align: center;
+  padding-top: 12.5%;
+}
+
+.textbox h1{
+  font-size:5em;
+  color: var(--colorb);
+}
+
+.textbox a button{
+  font-size: 1.2em;
+  padding: 12px 35px;
+  background-color: var(--colorb);
+  border: none;
+  border-radius: 50px;
+  /* Zeynep <3 */
+  color: white;
+  margin-top: 25px;
+}
+.textbox p {
+  color: var(--colorb);
+  font-size: 0.75em;
+  padding-top: 25px;
+}
+
+/* Pink Ends */
+
+/* Green Blue Starts */
+
+.green{
+  width: 100%;
+  height: 520px;
+  background-color: var(--colorc);
+}
+
+.textbox1{
+  margin-left: 7.5%;
+  padding-top: 6.5%;
+}
+
+.textbox1 h1{
+  font-size:4em;
+  color: var(--colorg);
+}
+
+.textbox1 p{
+  font-weight: 475;
+  padding-top: 40px;
+  font-size: 1.5em;
+  color: var(--colorg);
+}
+
+.textbox1 a button{
+  font-weight: 530;
+  font-size: 1em;
+  padding: 13px 35px;
+  background-color: var(--colorg);
+  border: none;
+  border-radius: 50px;
+  color: var(--colorc);
+  margin-top: 40px;
+}
+
+/* Green Blue Ends */
+
+/* Black Starts */
+
+.black{
+  background-color: black;
+  width: 100%;
+  height: 500px;
+
+  
+
+}
+
+.flex{
+  display: flex;
+}
+ .black li  li a{
+  font-size: 16px;
+  color: whitesmoke;
+  
+}
+
+.white{
+  color: white;
+  font-weight: 700;
+}
+
+.texts{
+  padding-top: 7.5%;
+  padding-left: 7.5%;
+  width: 55%;
+  padding-right: 7.5%;
+  padding-bottom: 7.5%;
+  
+ 
+  
+}
+
+.yazılar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.shadow{
+  text-transform: uppercase;
+  color: grey;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+
+.one li , .two li , .three li{
+  padding-top: 25px;
+}
+
+
+/* Texts End */
+.socials{
+  margin-top: 10%;
+  padding-left: 50px;
+}
+
+.socials i{
+  padding-left:50px;
+}
+
+/* Socials End */
+.last{
+  padding-left: 7.5%;
+  width: 55%;
+  padding-right: 7.5%;
+}
+
+.last ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+.last ul li a{
+  color: white;
+  font-size: 12px;
+}
